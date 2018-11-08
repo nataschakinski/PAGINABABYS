@@ -1,0 +1,117 @@
+body {
+    background: rgb(231, 208, 133);
+}
+.papaheader{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: bisque;
+    border: 5px solid blueviolet;
+    margin: 10px 0px;
+}
+#titulo{
+    color: darkblue;
+    display: inline-block;
+    width: 37%;
+    margin-left: 0px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    margin-right: 0;
+    text-align-last: center;
+    font-size: 99px;
+    font-style: oblique;
+    font-weight: 700;
+    font-family: fantasy;
+}
+.mi_primer_img{
+    border: 0;
+    padding: 0;
+    margin: 20px;
+    width: 20%;
+    display: inline-block;
+}
+.mi_navegador{
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    display: inline-block;
+    font-size: 90%;
+    width: 413px;
+}
+.displayflex{
+    display: flex;
+}
+.elementos{
+    display: inline-block;
+    border: 1.5px solid black;
+    padding: 4px 18px;
+    background-color: lavender;
+    list-style: none;
+}
+
+.elementos:hover {
+    background-color: blueviolet;
+    box-shadow: 2px 2px 1px black;
+}
+.text-decoration{
+    text-decoration: none;
+}
+.mi_section1{
+    width: 70%;
+    display: inline-block;
+}
+.sectionchild {
+    background-color: darksalmon;
+    font-size: 20px;
+    width: 100%;
+    border: 5px solid #533344;
+    margin-bottom: 10px
+}
+.subtitulo{
+    font-family: cursive;
+    font-size: 38px;
+    font-style: normal;
+    text-align: center;
+    color: indigo;
+}
+section p {
+    color: black;
+    font-size: 20px;
+}
+.imagensection{
+    width: 38%;
+    margin: 0px 0px 0px 10px;
+    border: 1.5px solid crimson;
+}
+.imagensection:hover {
+    transform: rotate(180deg);
+}
+.aside-block{
+    width: 28%;
+    display: inline-block;
+    background: #97e2d1;
+    margin-left: 20px;
+}   
+.aside-block li {
+    list-style: none;
+    padding: 0 0px;
+    margin: 0;
+    padding-left: 2px;
+    padding-top: 15px
+}
+.aside-block li p{
+    font-size: 20px;
+    color: midnightblue
+}
+.aside-block ul{
+    margin: 0%;
+}
+.img-aside{
+    width: 90%;
+    border: 8px solid red;
+    padding: 0px;
+    margin: 0px;
+}
